@@ -402,23 +402,23 @@ end
 
 * Begin by forking and cloning this repo into your develop folder.  Create a `solutions.rb` file to hold all of the solutions to the following challenges.
 
-* Create the following:
+##### Create the following:
 
-  1. An `Animal` class, with the following:
-    * Properties:
-      * `kind`: A string that holds the type of animal
-    * Instance Methods:
-      * `eat`: Takes a parameter `food` to eat and prints out a message that the animal is eating `food`
-      * `sleep` & `wake`: These two methods should NOT be passed any arguments. Instead, they will set an instance variable `@state` to the string `"asleep"` or `"awake"` respectively.
+1. An `Animal` class, with the following:
+  * Properties:
+    * `kind`: A string that holds the type of animal
+  * Instance Methods:
+    * `eat`: Takes a parameter `food` to eat and prints out a message that the animal is eating `food`
+    * `sleep` & `wake`: These two methods should NOT be passed any arguments. Instead, they will set an instance variable `@state` to the string `"asleep"` or `"awake"` respectively.
 
-  2. A `Person` class, with the following characteristics:
-    * Inherits from `Animal`
-    * Automatically sets `@type` to `"person"`
-    * Adds 3 new instance vars:
-      * age
-      * gender
-      * name
-    - Also, people aren't cannibals! Make sure your `Person` class *overrides* the existing `eat` method (in `Animal`) so that a `Person` cannot eat a `"person"`
+2. A `Person` class, with the following characteristics:
+  * Inherits from `Animal`
+  * Automatically sets `@type` to `"person"`
+  * Adds 3 new instance vars:
+    * age
+    * gender
+    * name
+  * Also, people aren't cannibals! Make sure your `Person` class *overrides* the existing `eat` method (in `Animal`) so that a `Person` cannot eat a `"person"`
 
 #### Stretch Challenges
 
@@ -427,4 +427,4 @@ end
 
 #### Submission
 
-Upon completion of the assignment submit a pull request back to this repo.
+* Upon completion of the assignment submit a pull request back to this repo.
